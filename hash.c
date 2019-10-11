@@ -52,7 +52,6 @@ void search(int array[], int delta, int size){
   }
 }
 
-
 int main(){
   int size, delta, i, choice;
 
@@ -69,25 +68,24 @@ int main(){
   }
 
   do{
-		printf("Enter your choice\n");
-		printf(" 1-> Insert\n 2-> Display\n 3-> Search\n 0-> Exit\n");
-		scanf("%d",&choice);
-
-		switch(choice){
-			case 1:
-				insert(array,delta,size);
-				break;
-			case 2:
-				display(array,size);
-				break;
-			case 3:
-				search(array,delta,size);
-				break;
-			default:
-				printf("Enter correct choice\n");
-				break;
+	  printf("Enter your choice\n");
+	  printf(" 1-> Insert\n 2-> Display\n 3-> Search\n 0-> Exit\n");
+	  scanf("%d",&choice);
+	  
+	  switch(choice){
+		  case 1:
+			insert(array,delta,size);
+			break;
+		case 2:
+			display(array,size);
+			break;
+		case 3:
+			search(array,delta,size);
+			break;
+		default:
+			printf("Enter correct choice\n");
+			break;
 		}
-	}while(choice);
-
-	return 0;
+  } while (choice);
+  return 0;
 }
