@@ -1,2 +1,4 @@
 # t15546td_SFC_SE
-Repo for Software Engineering @SFC Fall 2019
+Software Engineering @SFC Fall 2019
+Do Tuan Anh - 71575469
+CNS id: t15546td
