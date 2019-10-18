@@ -4,7 +4,7 @@
 ```
 for (int j = leaf->nkey; j > i; j--) {
   leaf->chi[j] = leaf->chi[j-1];
-	leaf->key[j] = leaf->key[j-1];
+  leaf->key[j] = leaf->key[j-1];
 }
 leaf->key[i] = key;
 leaf->chi[i] = (NODE *)data;
